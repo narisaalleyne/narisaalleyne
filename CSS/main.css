@@ -1,0 +1,60 @@
+/* html style */
+
+html{
+    background-image: url(../images/bats.gif);
+}
+/* body style */
+body{
+    
+    background-image: url(../images/bats.gif);
+    background-position: center;
+    background-size: cover;
+    font-family: sans-serif;
+    padding: 60px;
+    margin:40px; 
+    box-shadow: 3px 4px 50px  black;
+}
+/* container style */
+.container {
+ width: 1370px;
+ background-image: linear-gradient(to right, white, orange, black);
+border-bottom: 2px solid black;
+
+}
+
+/* header heading */
+header img{
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+
+h3::first-letter{
+    font-size: 45px;
+}
+/* wrapper style */
+.wrapper{
+    width: 1150px;
+    background-color: white;
+    font-family: sans-serif;
+
+}
+ 
+/* ul style */
+ul li{
+    color: orange;
+}
+
+ /* box style */
+ .box {
+    width: 1370px;
+    height: 50px;
+    background-image: linear-gradient(45deg, black, orange, white);
+
+ }
+
+ /* footer style */
+ footer{
+    text-align: center;
+    border-top: 2px solid black;
+ }
